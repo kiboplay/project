@@ -21,19 +21,21 @@ function ContactMe({}: Props) {
         Contact
       </h3>
       <div className="flex flex-col space-y-10 ">
-        <div className="space-y-5">
+        <div className="space-y-1 xl:space-y-5 md:space-y-5">
           <div className="flex items-center space-x-5 justify-center mt-20">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+381 64 8966459</p>
+            <PhoneIcon className="text-[#F7AB0A] h-4 w-4 animate-pulse" />
+            <p className="text-xs xl:text-base md:text-base">+381 64 8966459</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">bojan.stojicevic@outlook.com</p>
+            <EnvelopeIcon className="text-[#F7AB0A] h-4 w-4 animate-pulse" />
+            <p className="text-xs xl:text-base md:text-base">
+              bojan.stojicevic@outlook.com
+            </p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Kneza Lazara 26</p>
-            <p>12208 Kostolac, Serbia</p>
+            <MapPinIcon className="text-[#F7AB0A] h-4 w-4 animate-pulse" />
+            <p className="text-xs xl:text-base md:text-base">Kneza Lazara 26</p>
+            <p className="text-xs">12208 Kostolac, Serbia</p>
           </div>
         </div>
         <form
@@ -44,26 +46,26 @@ function ContactMe({}: Props) {
             <input
               {...register("name")}
               placeholder="Name"
-              className="contactInput"
+              className="contactInput w-28 xl:w-60 md:w-60 text-xs"
               type="text"
             />
             <input
               {...register("email")}
               placeholder="Email"
-              className="contactInput"
+              className="contactInput w-28 xl:w-60 md:w-60 text-xs"
               type="email"
             />
           </div>
           <input
             {...register("subject")}
             placeholder="Subject"
-            className="contactInput"
+            className="contactInput text-xs"
             type="text"
           />
           <textarea
             {...register("message")}
             placeholder="Message"
-            className="contactInput"
+            className="contactInput text-xs"
           />
           <button
             type="submit"

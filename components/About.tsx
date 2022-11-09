@@ -30,7 +30,7 @@ function About({}: Props) {
         <h4 className="text-2xl font-semibold mt-6">
           Here is a little background
         </h4>
-        <p>
+        <p className="text-xs lg:text-base md:text-base">
           As a creative individual passionate about learning new skills and
           constantly furthering my knowledge, I am particularly drawn to the IT
           sector because it is a fast-paced and dynamic environment with

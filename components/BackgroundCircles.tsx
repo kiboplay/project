@@ -11,8 +11,8 @@ function BackgroundCircles({}: Props) {
       }}
       animate={{
         scale: [2, 0.9],
-        opacity: 1,
       }}
+      whileInView={{ opacity: 1 }}
       transition={{
         duration: 1.5,
       }}
@@ -24,7 +24,7 @@ function BackgroundCircles({}: Props) {
       <div className="absolute border  border-[#333333] rounded-full h-[250px] w-[250px]  mt-52 animate-ping " />
 
       <div className="rounded-full border border-[#333333] h-[290px] w-[290px]  absolute mt-52  animate-ping" />
-      <div className="rounded-full border border-[#17ff1f] opacity-20 h-[520px] w-[520px] absolute mt-52 animate-pulse md:w-[600px] md:h-[600px]" />
+      <div className="rounded-full border border-[#17ff1f] opacity-20 h-[480px] w-[480px] absolute mt-52 animate-pulse md:w-[600px] md:h-[600px]" />
     </motion.div>
   );
 }
