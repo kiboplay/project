@@ -50,7 +50,7 @@ function Experience() {
       <h3 className="absolute top-24 uppercase tracking-[12px] text-gray-500  text-2xl">
         Experience
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A] scrollbar-thin">
+      <div className="w-full flex space-x-5 lg:justify-center overflow-x-scroll p-10 snap-x snap-mandatory  scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A] scrollbar-thin">
         {logo.map((znak) => {
           return (
             <ExperienceCard
