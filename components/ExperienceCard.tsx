@@ -18,7 +18,7 @@ export default function ExperienceCard({
   name,
 }: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[400px] xl:w-[400px] xl:h-[420px] snap-center bg-[#292929] hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden p-10">
+    <article className="flex flex-col rounded-lg items-center mt-9 space-y-7 flex-shrink-0 w-[500px] md:w-[400px] xl:w-[400px] xl:h-[420px] snap-center bg-[#292929] hover:opacity-100 opacity-50 cursor-pointer transition-opacity duration-200 overflow-hidden p-10">
       <motion.img
         initial={{ y: -50, opacity: 0 }}
         transition={{ duration: 1.2 }}
