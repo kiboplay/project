@@ -23,7 +23,7 @@ function About({}: Props) {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         src="/djkibo1.jpg"
-        className="-mb-20  md:mb-0 flex-shrink-0 w-44 h-44 rounded-full object-cover md:rounded-lg md:w-64 md-h-95 xl:w-[300px] xl:h-[300px] "
+        className="-mb-20  md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md-h-95 xl:w-[300px] xl:h-[300px] "
       />
 
       <div className="space-y-10 px-0 md:px-10 ">
