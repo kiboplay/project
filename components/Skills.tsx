@@ -60,7 +60,7 @@ export default function Skills() {
         Skills
       </h3>
 
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-3 gap-4">
         {picture.map((slidza) => {
           return <Skill element={slidza.img} key={slidza.name} />;
         })}

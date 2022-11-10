@@ -23,14 +23,14 @@ function About({}: Props) {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         src="/djkibo1.jpg"
-        className="-mb-20  md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md-h-95 xl:w-[300px] xl:h-[300px] "
+        className="-mb-20  md:mb-0 flex-shrink-0 w-16 h-16 mini:w-24 mini:h-24 rounded-full object-cover ml:w-32 ml:h-32  md:w-64 md:h-64 xl:w-[300px] xl:h-[300px] "
       />
 
       <div className="space-y-10 px-0 md:px-10 ">
-        <h4 className="text-2xl font-semibold mt-6">
+        <h4 className="text-1xl font-semibold mt-6">
           Here is a little background
         </h4>
-        <p className="text-xs lg:text-base md:text-base">
+        <p className="text-[10px] mini:text-xs lg:text-base md:text-base">
           As a creative individual passionate about learning new skills and
           constantly furthering my knowledge, I am particularly drawn to the IT
           sector because it is a fast-paced and dynamic environment with

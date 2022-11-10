@@ -18,7 +18,7 @@ function Skill({ directionLeft, element }: Props) {
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
         src={element}
-        className="rounded-full border border-gray-500 object-cover w-16 h-16 xl:w-24 xl:h-24 md:w-24 md:h-24 "
+        className="rounded-full border border-gray-500 object-cover w-8 h-8 ml:w-20 ml:h-20 xl:w-24 xl:h-24 md:w-20 md:h-20 "
       />
     </div>
   );
