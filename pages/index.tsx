@@ -14,6 +14,7 @@ const Home: NextPage = () => {
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory  z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A] scrollbar-thin">
       <Head>
         <title>Kibo Portfolio</title>
+        <meta property="og:image" content="/djkibo1.jpg" />
       </Head>
 
       <Header />
